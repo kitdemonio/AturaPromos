@@ -1,0 +1,29 @@
+{
+  "name": "aturapromos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kitdemonio/AturaPromos.git"
+  },
+  "author": "kitdemonio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kitdemonio/AturaPromos/issues"
+  },
+  "homepage": "https://github.com/kitdemonio/AturaPromos#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "del": "^2.2.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cache": "^0.4.3",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "imagemin-pngquant": "^4.2.2"
+  }
+}
