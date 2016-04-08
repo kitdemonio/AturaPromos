@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  color: #fff; }
+  header .container-fluid {
+    padding-right: 0;
+    background-color: #000000; }
+  header .navbar {
+    border: none; }
+  header .nav li a {
+    color: #fff !important; }
+  header .nav li.active a {
+    color: #333333 !important; }
+  header .login, header .find-hotel {
+    display: inline-block;
+    width: 260px;
+    height: 53px;
+    background-color: #161616; }
+    header .login p, header .find-hotel p {
+      margin-bottom: 0; }
+  header .login {
+    text-align: right;
+    border-right: 1px solid #000000; }
+    header .login img {
+      width: 108px;
+      height: 39px;
+      display: block;
+      float: left;
+      margin: 7px 0 7px 20px; }
+    header .login p {
+      margin-right: 24px;
+      line-height: 53px; }
+  header .find-hotel {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    header .find-hotel .map-marker {
+      margin-right: 15px;
+      display: block;
+      width: 9px;
+      height: 13px;
+      background: url("../img/icons/map-marker.png") no-repeat; }

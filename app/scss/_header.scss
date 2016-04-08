@@ -1,0 +1,65 @@
+header {
+   color:$seconadry-text-color;
+
+   .container-fluid {
+      padding-right: 0;
+      background-color: $header-bg-color;
+   }
+   .navbar {
+      border: none;
+   }
+   .collapse{
+      // margin-left: 4.875em !important;
+   }
+
+   .nav {
+      li{
+         a{
+            color:$seconadry-text-color !important;
+         }
+         &.active {
+            a {
+            color:$primary-text-color !important;
+            }
+         }
+      }
+   }
+
+   .login, .find-hotel {
+      display: inline-block;
+      width: 260px;
+      height: 53px;
+      background-color: #161616;
+      p {
+         margin-bottom: 0;
+      }
+   }
+   .login {
+      text-align: right;
+      border-right: 1px solid $header-bg-color;
+      img {
+         width: 108px;
+         height: 39px;
+         display: block;
+         float:left;
+         margin: 7px 0 7px 20px;
+      }
+      p{
+         margin-right:24px;
+         line-height: 53px;
+      }
+   }
+   .find-hotel {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .map-marker{
+         margin-right: 15px;
+         display: block;
+         width: 9px;
+         height: 13px;
+         background: url("../img/icons/map-marker.png") no-repeat;
+      }
+   }
+
+}

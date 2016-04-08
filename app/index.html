@@ -9,7 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="css/main.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,9 +19,35 @@
   </head>
   <body>
    <header>
-      <div class="container-fluid">
-         
-      </div>
+      <nav class="navbar navbar-default" role="navigation">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                 <span class="sr-only">Toggle navigation</span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+               </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+               <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Atura</a></li>
+                  <li><a href="#">Qt</a></li>
+                  <li><a href="#">Art Series</a></li>
+                  <li><a href="#">Rydges</a></li>
+                  <li><a href="#">Thredbo</a></li>
+               </ul>
+               <div class="find-hotel pull-right">
+                  <i class="map-marker"></i>
+                  <p>Find hotel &amp; Book</p>
+               </div>
+               <div class="login pull-right">
+                  <img src="img/pgr-logo.png" alt="png-logo" />
+                  <p>login/join</p>
+               </div>
+            </div>
+         </div>
+      </nav>
    </header>
 
 
@@ -30,6 +56,6 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   </body>
 </html>
