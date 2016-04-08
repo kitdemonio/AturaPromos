@@ -9,6 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="css/main.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,7 +32,7 @@
             </div>
             <div class="collapse navbar-collapse" id="navbar">
                <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">Atura</a></li>
+                  <li class="active primary"><a href="#">Atura</a></li>
                   <li><a href="#">Qt</a></li>
                   <li><a href="#">Art Series</a></li>
                   <li><a href="#">Rydges</a></li>
@@ -39,15 +40,40 @@
                </ul>
                <div class="find-hotel pull-right">
                   <i class="map-marker"></i>
-                  <p>Find hotel &amp; Book</p>
+                  <p><a href="#">Find hotel &amp; Book</a></p>
                </div>
                <div class="login pull-right">
                   <img src="img/pgr-logo.png" alt="png-logo" />
-                  <p>login/join</p>
+                  <p><a href="#">login / join</a></p>
                </div>
             </div>
          </div>
       </nav>
+      <div class="container-fluid navbar-bottom">
+         <div class="row">
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-1">
+               <div class="logo">
+                  <img src="./img/logo-atura.png" alt="logo atura">
+               </div>
+            </div>
+            <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+               <div class="input-group">
+                  <form class="" action="#" method="">
+                     <input type="text" class="select-hotel" name="select-hotel" placeholder="Select Hotel">
+                     <input type="text" class="select-room" name="select-room" placeholder="2 guests / 1 room">
+                     <input type="text" class="select-date" name="select-date" placeholder="9-10 March">
+                     <button type="submit" name="book-now" >Book now</button>
+                  </form>
+               </div>
+            </div>
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+               <div class="event-logo">
+                  <img src="./img/event-logo.png" alt="event-logo" />
+                  <p>Hotels &amp; Resorts</p>
+               </div>
+            </div>
+         </div>
+      </div>
    </header>
 
 
