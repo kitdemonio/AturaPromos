@@ -45,6 +45,52 @@
   padding-right: 0 !important;
   padding-left: 0 !important; }
 
+.btn {
+  font-family: 'Proximanova-regular',sans-serif;
+  border: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  letter-spacing: 0.05em;
+  height: 57px;
+  -webkit-border-radius: 0;
+          border-radius: 0; }
+
+.btn-black {
+  background: #000000;
+  width: 276px;
+  color: #fff; }
+  .btn-black:hover {
+    color: #fff;
+    background: #161616; }
+
+.btn-yellow {
+  background: #ffcc00;
+  width: 315px;
+  color: #000;
+  font-size: 21px; }
+
+.price {
+  display: inline-block;
+  padding-top: 20px;
+  font-family: 'Proximanova-semibold',sans-serif !important;
+  font-size: 27px !important;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #fff; }
+
+.pgr-price {
+  display: inline-block;
+  font-family: 'Proximanova-semibold',sans-serif !important;
+  font-size: 18px !important;
+  text-transform: uppercase;
+  line-height: 35px;
+  letter-spacing: 0.1em;
+  color: #c59f1d; }
+
 header {
   color: #fff; }
   header .container-fluid {
@@ -168,19 +214,9 @@ header {
       width: 155px;
       background: #fff url("../img/icons/calendar.png") no-repeat 125px 19px; }
     header .navbar-bottom button {
-      border: none;
       -webkit-border-radius: 2px;
               border-radius: 2px;
-      font-family: 'Proximanova-semibold',sans-serif;
-      font-size: 18px;
-      text-transform: uppercase;
-      outline: none;
-      -webkit-appearance: none;
-         -moz-appearance: none;
-              appearance: none;
-      width: 158px;
-      height: 57px;
-      background: #000000; }
+      width: 158px; }
     header .navbar-bottom .event-logo {
       background: #000000;
       width: 261px;
@@ -195,3 +231,198 @@ header {
         padding-top: 15px; }
       header .navbar-bottom .event-logo img {
         padding-top: 22px; }
+
+main {
+  background: url("../img/main-bg.jpg");
+  background-size: cover; }
+  main h2 {
+    background: url("../img/border.jpg") no-repeat center bottom;
+    font-family: "Proximanova-regular",sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 65px;
+    margin-bottom: 54px;
+    padding-bottom: 18px;
+    text-align: center;
+    color: #fff; }
+  main .slider {
+    position: relative;
+    overflow: hidden; }
+  main .details {
+    background: url("../img/background.png") no-repeat -167px;
+    padding-left: 74px;
+    padding-right: 181px;
+    height: 490px;
+    position: relative;
+    z-index: 10; }
+    main .details h3 {
+      padding-top: 40px;
+      line-height: 35px;
+      font-family: 'Proximanova-semibold',sans-serif;
+      font-size: 30px;
+      letter-spacing: 0.05em;
+      color: #000; }
+    main .details p {
+      padding-top: 3px;
+      letter-spacing: 0.05em;
+      font-family: 'Proximanova-regular',sans-serif;
+      font-size: 16px;
+      line-height: 28px; }
+      main .details p > span {
+        font-family: 'Proximanova-semibolditalic',sans-serif;
+        font-size: 16px; }
+    main .details button {
+      display: block;
+      margin-top: 30px; }
+  main img {
+    position: absolute;
+    height: 490px;
+    right: -80px;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1); }
+  main .select {
+    padding: 58px 0 54px 0; }
+  main select {
+    background: url("../img/icons/arrow-down-promo.png") no-repeat 254px;
+    font-family: 'Proximanova-regular',sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.12em;
+    color: #fff;
+    padding-left: 26px;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    height: 71px;
+    width: 286px;
+    background-color: none;
+    border: 1px solid #fff;
+    -webkit-border-radius: 1px;
+            border-radius: 1px;
+    margin-right: 43px; }
+    main select:last-of-type {
+      margin-right: 0; }
+    main select option {
+      color: #000; }
+  main .promo {
+    padding-left: 40px;
+    padding-right: 55px; }
+  main .box {
+    width: 375px;
+    margin: 0 10px 25px 10px; }
+    main .box img {
+      display: block;
+      margin: 0 auto;
+      position: static;
+      width: 371px;
+      height: 287px;
+      -webkit-transform: none;
+          -ms-transform: none;
+              transform: none; }
+    main .box .info {
+      width: 375px;
+      background: #000;
+      padding: 31px 37px 17px 22px; }
+    main .box h3, main .box a {
+      text-transform: capitalize;
+      color: #fff;
+      letter-spacing: 0.12em; }
+    main .box h3 {
+      font-family: 'Proximanova-bold',sans-serif;
+      font-size: 18px;
+      margin-top: 0; }
+    main .box a {
+      font-size: 13px;
+      font-family: 'Proximanova-semibold',sans-serif;
+      text-decoration: underline; }
+    main .box .price {
+      font-size: 19px !important;
+      color: #ffcc00; }
+    main .box .pgr-price {
+      color: #676767;
+      font-size: 14px !important; }
+
+footer {
+  background: #000; }
+  footer .block {
+    background: url("../img/fallow-bg.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 63px;
+    padding-bottom: 55px;
+    text-align: center; }
+  footer h2 {
+    font-family: 'Proximanova-semibold',sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.05em;
+    margin: 0 auto;
+    padding: 17px 21px 17px 26px;
+    background: #fff;
+    width: 451px;
+    display: block; }
+    footer h2 a {
+      color: #000; }
+      footer h2 a:hover {
+        text-decoration: none;
+        color: #ffcc00; }
+  footer .img-slider {
+    padding-top: 61px;
+    margin-bottom: 33px; }
+    footer .img-slider .img {
+      width: 287px;
+      height: 288px;
+      outline: none; }
+    footer .img-slider .slick-list {
+      width: 87%;
+      margin: 0 auto; }
+    footer .img-slider .slick-prev, footer .img-slider .slick-next {
+      width: 7.49%;
+      height: 81px;
+      position: absolute;
+      outline: none;
+      -webkit-appearance: none;
+         -moz-appearance: none;
+              appearance: none;
+      border: none;
+      color: transparent; }
+    footer .img-slider .slick-prev {
+      background: #ffcc00 url("../img/icons/arrow-prev.png") no-repeat center;
+      left: 0;
+      top: 45.5%; }
+    footer .img-slider .slick-next {
+      background: #ffcc00 url("../img/icons/arrow-next.png") no-repeat center;
+      bottom: 32.5%;
+      right: 0; }
+  footer .social-icons li a {
+    display: block;
+    width: 33px;
+    height: 33px;
+    background: url("../img/icons/social-icons.png") no-repeat; }
+  footer .instagram {
+    background-position: -39px 0px !important; }
+  footer .google {
+    background-position: -78px 0px !important; }
+  footer .spotify {
+    background-position: -117px -1px !important; }
+  footer .btn {
+    margin-top: 23px;
+    margin-bottom: 47px; }
+    footer .btn a {
+      color: #000;
+      text-decoration: none; }
+  footer .footer {
+    background: #171717;
+    padding: 36px 0 26px 0; }
+    footer .footer a {
+      font-family: 'Proximanova-semibold',sans-serif;
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #484848;
+      padding-right: 20px;
+      padding-left: 20px;
+      border-right: 2px solid #484848; }
+    footer .footer .last {
+      border-right: none; }

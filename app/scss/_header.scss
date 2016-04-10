@@ -142,17 +142,10 @@ header {
          width: 155px;
          background:#fff url("../img/icons/calendar.png") no-repeat 125px 19px;
       }
+
       button {
-         border:none;
          border-radius: 2px;
-         font-family: 'Proximanova-semibold',sans-serif;
-         font-size: 18px;
-         text-transform: uppercase;
-         outline: none;
-         appearance:none;
          width: 158px;
-         height: 57px;
-         background: $header-bg-color;
       }
 
       .event-logo {

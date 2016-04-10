@@ -2,3 +2,51 @@
    padding-right: 0 !important;
    padding-left: 0 !important;
 }
+
+.btn {
+   font-family: 'Proximanova-regular',sans-serif;
+   border:none;
+   font-size: 18px;
+   text-transform: uppercase;
+   outline: none;
+   appearance:none;
+   letter-spacing: 0.05em;
+   height: 57px;
+   border-radius: 0;
+}
+
+.btn-black {
+   background: $header-bg-color;
+   width: 276px;
+   color:$secondary-text-color;
+   &:hover {
+      color:$secondary-text-color;
+      background: #161616;
+   }
+}
+
+.btn-yellow {
+   background: $primary-bg-color;
+   width:315px;
+   color:#000;
+   font-size: 21px;
+}
+
+.price {
+   display: inline-block;
+   padding-top: 20px;
+   font-family: 'Proximanova-semibold',sans-serif !important;
+   font-size: 27px !important;
+   text-transform: uppercase;
+   letter-spacing: 0.06em;
+   color:$secondary-text-color;
+}
+.pgr-price {
+   display: inline-block;
+   font-family: 'Proximanova-semibold',sans-serif !important;
+   font-size: 18px !important;
+   text-transform: uppercase;
+   line-height: 35px;
+   letter-spacing: 0.1em;
+   color:#c59f1d;
+}

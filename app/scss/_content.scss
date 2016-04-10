@@ -1,0 +1,136 @@
+main {
+   background: url('../img/main-bg.jpg');
+   background-size: cover;
+   // Main promotion
+   h2 {
+      background: url("../img/border.jpg") no-repeat center bottom;
+      font-family: "Proximanova-regular",sans-serif;
+      font-size: 35px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      margin-top: 65px;
+      margin-bottom: 54px;
+      padding-bottom: 18px;
+      text-align: center;
+      color:$secondary-text-color;
+   }
+
+   .slider {
+      position: relative;
+      overflow: hidden;
+   }
+
+   .details {
+      background: url('../img/background.png') no-repeat -167px;
+      padding-left: 74px;
+      padding-right: 181px;
+      height: 490px;
+      position: relative;
+      z-index: 10;
+      h3 {
+         padding-top: 40px;
+         line-height: 35px;
+         font-family: 'Proximanova-semibold',sans-serif;
+         font-size: 30px;
+         letter-spacing: 0.05em;
+         color:#000;
+      }
+      p{
+         padding-top: 3px;
+         letter-spacing: 0.05em;
+         font-family: 'Proximanova-regular',sans-serif;
+         font-size: 16px;
+         line-height: 28px;
+         &>span{
+            font-family: 'Proximanova-semibolditalic',sans-serif;
+            font-size: 16px;
+         }
+      }
+      button {
+         display: block;
+         margin-top: 30px;
+      }
+   }
+
+   img {
+      position: absolute;
+      height: 490px;
+      right:-80px;
+      transform: scale(1.1);
+   }
+
+   // Other promotions
+   .select {
+      padding: 58px 0 54px 0;
+   }
+   select {
+      background: url('../img/icons/arrow-down-promo.png') no-repeat 254px;
+      font-family: 'Proximanova-regular',sans-serif;
+      font-size: 20px;
+      letter-spacing: 0.12em;
+      color:$secondary-text-color;
+      padding-left: 26px;
+      cursor: pointer;
+      outline: none;
+      appearance:none;
+      height: 71px;
+      width: 286px;
+      background-color: none;
+      border: 1px solid #fff;
+      border-radius: 1px;
+      margin-right: 43px;
+      &:last-of-type {
+         margin-right:0;
+      }
+      option {
+         color:#000;
+      }
+   }
+
+   .promo {
+      padding-left: 40px;
+      padding-right: 55px;
+   }
+
+   .box {
+      width: 375px;
+      margin: 0 10px 25px 10px;
+      img {
+         display: block;
+         margin:0 auto;
+         position: static;
+         width: 371px;
+         height: 287px;
+         transform:none;
+      }
+      .info {
+         width: 375px;
+         background: #000;
+         padding: 31px 37px 17px 22px;
+      }
+      h3,a {
+         text-transform: capitalize;
+         color: $secondary-text-color;
+         letter-spacing: 0.12em;
+      }
+
+      h3 {
+         font-family: 'Proximanova-bold',sans-serif;
+         font-size: 18px;
+         margin-top: 0;
+      }
+      a{
+         font-size: 13px;
+         font-family: 'Proximanova-semibold',sans-serif;
+         text-decoration: underline;
+      }
+      .price {
+         font-size: 19px !important;
+         color: $primary-bg-color;
+      }
+      .pgr-price {
+         color: #676767;
+         font-size: 14px !important;
+      }
+   }
+}

@@ -1,0 +1,109 @@
+footer {
+   background: #000;
+   .block {
+      background: url('../img/fallow-bg.jpg') no-repeat center;
+      background-size: cover;
+      padding-top: 63px;
+      padding-bottom: 55px;
+      text-align: center;
+   }
+   h2 {
+      font-family: 'Proximanova-semibold',sans-serif;
+      font-size: 22px;
+      letter-spacing: 0.05em;
+
+      margin:0 auto;
+      padding: 17px 21px 17px 26px;
+      background: #fff;
+      width: 451px;
+      display: block;
+      a{
+         color:#000;
+         &:hover {
+            text-decoration: none;
+            color: $primary-bg-color;
+         }
+      }
+   }
+
+   .img-slider {
+      padding-top: 61px;
+      margin-bottom: 33px;
+      .img {
+      width: 287px;
+      height: 288px;
+      outline: none;
+         img {
+
+         }
+      }
+      .slick-list {
+         width:87%;
+         margin:0 auto;
+      }
+      .slick-prev,.slick-next {
+         width: 7.49%;
+         height: 81px;
+         position: absolute;
+         outline: none;
+         appearance:none;
+         border:none;
+         color:rgba(0, 0, 0, 0);
+      }
+      .slick-prev {
+         background: $primary-bg-color url("../img/icons/arrow-prev.png" ) no-repeat center;
+         left:0;
+         top:45.5%;
+      }
+      .slick-next {
+         background: $primary-bg-color url("../img/icons/arrow-next.png") no-repeat center;
+         bottom:32.5%;
+         right: 0;
+      }
+   }
+   // Social icons
+   .social-icons {
+      li {
+         a {
+            display: block;
+            width: 33px;
+            height: 33px;
+            background: url('../img/icons/social-icons.png') no-repeat;
+         }
+      }
+   }
+   .instagram {
+      background-position: -39px 0px !important;
+   }
+   .google {
+      background-position: -78px 0px !important;
+   }
+   .spotify {
+      background-position: -117px -1px !important;
+   }
+   .btn {
+      margin-top: 23px;
+      margin-bottom: 47px;
+      a {
+         color:#000;
+         text-decoration: none;
+      }
+   }
+   .footer {
+      background: #171717;
+      padding: 36px 0 26px 0;
+      a{
+         font-family: 'Proximanova-semibold',sans-serif;
+         font-size: 16px;
+         text-transform: uppercase;
+         letter-spacing: 0.05em;
+         color:#484848;
+         padding-right: 20px;
+         padding-left: 20px;
+         border-right: 2px solid #484848;
+      }
+      .last {
+         border-right: none;
+      }
+   }
+}
