@@ -19,6 +19,7 @@
     "bootstrap-sass": "^3.3.6"
   },
   "dependencies": {
-    "bootstrap-sass": "^3.3.6"
+    "bootstrap-sass": "^3.3.6",
+    "pikaday": "^1.4.0"
   }
 }
