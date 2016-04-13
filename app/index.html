@@ -8,7 +8,6 @@
     <title>Atura Promos</title>
 
     <!-- Bootstrap -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
     <link href="css/main.css" rel="stylesheet">
@@ -62,9 +61,17 @@
             <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 gutter-none">
                <div class="input-group">
                   <form class="" action="#" method="">
-                     <input type="text" class="select-hotel" name="select-hotel" placeholder="Select Hotel">
-                     <input type="text" class="select-room" name="select-room" placeholder="2 guests / 1 room">
-                     <input type="text" class="select-date" name="select-date" placeholder="9-10 March">
+                     <select class="select-hotel" name="select-hotel[]">
+                        <option value="Hotel 1"></option>
+                        <option value="Hotel 2"></option>
+                        <option value="hotel 3"></option>
+                     </select>
+                     <select class="select-room" name="select-room[]">
+                        <option value="Room 1"></option>
+                        <option value="Room 2"></option>
+                        <option value="Room 3"></option>
+                     </select>
+                     <input type="date" class="select-date" name="select-date" placeholder="9-10 March">
                      <button type="submit" name="book-now" class="btn btn-black">Book now</button>
                   </form>
                </div>
@@ -177,7 +184,7 @@
                            <span class="price">From $170</span>
                            <span class="pgr-price">PGR members: $153</span>
                         </p>
-                        <button type="button" name="details" class="btn btn-yellow">View details &amp; Book</button>
+                        <button type="button" name="details" class="btn btn-primary btn-lg">View details &amp; Book</button>
                      </div>
                   </div>
                </div>

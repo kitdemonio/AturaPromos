@@ -2,18 +2,18 @@
    padding-right: 0 !important;
    padding-left: 0 !important;
 }
-
-.btn {
-   font-family: 'Proximanova-regular',sans-serif;
-   border:none;
-   font-size: 18px;
-   text-transform: uppercase;
-   outline: none;
-   appearance:none;
-   letter-spacing: 0.05em;
-   height: 57px;
-   border-radius: 0;
-}
+// 
+// .btn {
+//    font-family: 'Proximanova-regular',sans-serif;
+//    border:none;
+//    font-size: 18px;
+//    text-transform: uppercase;
+//    outline: none;
+//    appearance:none;
+//    letter-spacing: 0.05em;
+//    height: 57px;
+//    border-radius: 0;
+// }
 
 .btn-black {
    background: $header-bg-color;
@@ -26,10 +26,12 @@
 }
 
 .btn-yellow {
-   background: $primary-bg-color;
-   width:315px;
-   color:#000;
-   font-size: 21px;
+   // background: $primary-bg-color;
+   // width:315px;
+   // color:#000;
+   // font-size: 21px;
+
+   @include button-variant(#fff, $primary-bg-color, $primary-bg-color);
 }
 
 .price {
