@@ -6149,6 +6149,7 @@ header {
           -ms-flex-pack: center;
               justify-content: center; }
     header .navbar-bottom .input-group {
+      padding: 14px 0 7px 0;
       height: 88px; }
       header .navbar-bottom .input-group form {
         display: -webkit-box;
@@ -6419,3 +6420,5 @@ footer {
       border-right: 2px solid #484848; }
     footer .footer .last {
       border-right: none; }
+  footer .footer-links-bg {
+    background: #171717; }
