@@ -2,10 +2,14 @@ main {
    background: url('../img/main-bg.jpg');
    background-size: cover;
    // Main promotion
+   .block {
+      position: relative;
+
+   }
    h2 {
-      background: url("../img/border.jpg") no-repeat center bottom;
       font-family: "Proximanova-regular",sans-serif;
       font-size: 35px;
+      position: relative;
       text-transform: uppercase;
       letter-spacing: 5px;
       margin-top: 65px;
@@ -13,6 +17,18 @@ main {
       padding-bottom: 18px;
       text-align: center;
       color:$secondary-text-color;
+      display: inline-block;
+      &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      max-width: 231px;
+      width: 80%;
+      left:50%;
+      transform: translateX(-50%);
+      border-bottom: 3px solid #ffcc00;
+      }
+
    }
 
    .slider {
@@ -21,12 +37,18 @@ main {
    }
 
    .details {
-      background: url('../img/background.png') no-repeat -167px;
-      padding-left: 74px;
-      padding-right: 181px;
-      height: 490px;
+      background: $primary-bg-color;
+      min-height: 400px;
+      max-height: 490px;
       position: relative;
       z-index: 10;
+      &::before {
+         content: "";
+         position: absolute;
+         right: -114px;
+         border-bottom: 490px solid transparent;
+	      border-left: 100px solid $primary-bg-color;
+      }
       h3 {
          padding-top: 40px;
          line-height: 35px;
@@ -52,10 +74,14 @@ main {
       }
    }
 
-   img {
-      position: absolute;
+   .slider-img {
       height: 490px;
-      right:-80px;
+      background-size: cover;
+      background: url("../img/marilyn.jpg") no-repeat -268px;
+   }
+
+   img {
+      height: 490px;
       transform: scale(1.1);
    }
 
@@ -78,10 +104,7 @@ main {
       background-color: none;
       border: 1px solid #fff;
       border-radius: 1px;
-      margin-right: 43px;
-      &:last-of-type {
-         margin-right:0;
-      }
+      margin:0 21px 5px 21px;
       option {
          color:#000;
       }
@@ -93,18 +116,17 @@ main {
    }
 
    .box {
-      width: 375px;
-      margin: 0 10px 25px 10px;
+      margin:0 auto;
+      max-width: 375px;
+      margin-bottom: 25px;
       img {
          display: block;
          margin:0 auto;
          position: static;
-         width: 371px;
-         height: 287px;
          transform:none;
       }
       .info {
-         width: 375px;
+         max-width: 375px;
          background: #000;
          padding: 31px 37px 17px 22px;
       }

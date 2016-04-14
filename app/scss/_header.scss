@@ -6,7 +6,9 @@ header {
       padding-left: 0;
       background-color: $header-bg-color;
    }
-
+   .navbar-header {
+      margin-right: 0 !important;
+   }
    .row {
       margin-right: 0 !important;
    }
@@ -96,20 +98,23 @@ header {
 
    // Navigation bottom
    .navbar-bottom {
-      height: 88px;
+      min-height: 88px;
       background-color: $primary-bg-color;
 
       .logo {
-         padding-left: 8px;
+         padding-left: 34px;
          height: 88px;
          display: flex;
          align-items: center;
+         justify-content: center;
       }
 
       .input-group {
          height: 88px;
          form {
-            display: table-cell;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
             vertical-align: middle;
          }
       }

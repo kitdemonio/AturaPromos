@@ -2,27 +2,17 @@
    padding-right: 0 !important;
    padding-left: 0 !important;
 }
-// 
-// .btn {
-//    font-family: 'Proximanova-regular',sans-serif;
-//    border:none;
-//    font-size: 18px;
-//    text-transform: uppercase;
-//    outline: none;
-//    appearance:none;
-//    letter-spacing: 0.05em;
-//    height: 57px;
-//    border-radius: 0;
-// }
+//
+.btn {
+   font-family: 'Proximanova-regular',sans-serif;
+   font-size: 18px;
+   text-transform: uppercase;
+   letter-spacing: 0.05em;
+}
 
-.btn-black {
-   background: $header-bg-color;
-   width: 276px;
-   color:$secondary-text-color;
-   &:hover {
-      color:$secondary-text-color;
-      background: #161616;
-   }
+.btn-default {
+   height: 56px;
+   max-height: 56px;
 }
 
 .btn-yellow {
@@ -51,4 +41,8 @@
    line-height: 35px;
    letter-spacing: 0.1em;
    color:#c59f1d;
+}
+
+.primary-bg-color {
+   background-color: $primary-bg-color;
 }
