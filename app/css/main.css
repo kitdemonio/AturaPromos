@@ -6068,6 +6068,11 @@ header {
     margin-left: 78px !important;
     padding-right: 0;
     padding-left: 0; }
+  header .collapse.in {
+    margin-left: 0 !important;
+    margin-right: 0; }
+    header .collapse.in .primary {
+      margin: 0 auto; }
   header .nav li {
     margin-right: 7px; }
     header .nav li a {
@@ -6149,7 +6154,6 @@ header {
           -ms-flex-pack: center;
               justify-content: center; }
     header .navbar-bottom .input-group {
-      padding: 14px 0 7px 0;
       height: 88px; }
       header .navbar-bottom .input-group form {
         display: -webkit-box;
@@ -6163,12 +6167,13 @@ header {
             -ms-flex-wrap: wrap;
                 flex-wrap: wrap;
         vertical-align: middle; }
+        header .navbar-bottom .input-group form select, header .navbar-bottom .input-group form input, header .navbar-bottom .input-group form button {
+          margin: 14px 3px 7px 4px; }
     header .navbar-bottom select, header .navbar-bottom input {
       background: #fff url("../img/icons/arrow-down.png") no-repeat;
       border: none;
       -webkit-border-radius: 2px;
               border-radius: 2px;
-      margin: 0 4px;
       padding: 11px 39px 11px 17px;
       font-family: 'Proximanova-regular',sans-serif;
       font-size: 18px;
@@ -6406,10 +6411,10 @@ footer {
     footer .btn a {
       color: #000;
       text-decoration: none; }
-  footer .footer {
+  footer .footer-links {
     background: #171717;
     padding: 36px 0 26px 0; }
-    footer .footer a {
+    footer .footer-links a {
       font-family: 'Proximanova-semibold',sans-serif;
       font-size: 16px;
       text-transform: uppercase;
@@ -6418,7 +6423,7 @@ footer {
       padding-right: 20px;
       padding-left: 20px;
       border-right: 2px solid #484848; }
-    footer .footer .last {
+    footer .footer-links .last {
       border-right: none; }
   footer .footer-links-bg {
     background: #171717; }

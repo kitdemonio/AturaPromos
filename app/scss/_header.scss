@@ -25,6 +25,14 @@ header {
       padding-left: 0;
    }
 
+   .collapse.in {
+      margin-left: 0 !important;
+      margin-right: 0;
+      .primary {
+         margin: 0 auto;
+      }
+   }
+
    .nav {
       li{
          margin-right: 7px;
@@ -110,13 +118,16 @@ header {
       }
 
       .input-group {
-         padding: 14px 0 7px 0;
+
          height: 88px;
          form {
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
             vertical-align: middle;
+            select,input,button {
+               margin: 14px 3px 7px 4px;
+            }
          }
       }
 
@@ -124,7 +135,6 @@ header {
          background: #fff url("../img/icons/arrow-down.png") no-repeat;
          border: none;
          border-radius: 2px;
-         margin:0 4px;
          padding: 11px 39px 11px 17px;
          font-family: 'Proximanova-regular',sans-serif;
  		   font-size: 18px;
