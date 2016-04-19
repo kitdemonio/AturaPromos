@@ -36,6 +36,16 @@ main {
       overflow: hidden;
    }
 
+   @media (max-width:992px) {
+      .details {
+         &::before {
+            display:none;
+            border-bottom: 0;
+            border-left: 0;
+      }
+   }
+}
+
    .details {
       background: $primary-bg-color;
       min-height: 400px;
